@@ -1,0 +1,111 @@
+Time out at City Hall MRT Station stations to Kembangan MRT Station
+Time out at City Hall MRT Station stations to Lavender MRT Station
+Time out at Clarke Quay MRT Station stations to Kembangan MRT Station
+Time out at Clarke Quay MRT Station stations to Lavender MRT Station
+Time out at Clementi MRT Station stations to Kembangan MRT Station
+Time out at Clementi MRT Station stations to Lavender MRT Station
+Time out at Commonwealth MRT Station stations to Kembangan MRT Station
+Time out at Commonwealth MRT Station stations to Lavender MRT Station
+Time out at Dakota MRT Station stations to Kembangan MRT Station
+Time out at Dakota MRT Station stations to Lavender MRT Station
+Time out at Dakota MRT Station stations to Mountbatten MRT Station
+Time out at Dhoby Ghaut MRT Station stations to Dover MRT Station
+Time out at Dhoby Ghaut MRT Station stations to Downtown MRT Station
+Time out at Dhoby Ghaut MRT Station stations to Esplanade MRT Station
+Time out at Dhoby Ghaut MRT Station stations to Eunos MRT Station
+Time out at Dhoby Ghaut MRT Station stations to Expo MRT Station
+Time out at Dhoby Ghaut MRT Station stations to Farrer Park MRT Station
+Time out at Dhoby Ghaut MRT Station stations to Farrer Road MRT Station
+Time out at Dhoby Ghaut MRT Station stations to HarbourFront MRT Station
+Time out at Dhoby Ghaut MRT Station stations to Haw Par Villa MRT Station
+Time out at Dhoby Ghaut MRT Station stations to Hillview MRT Station
+Time out at Dhoby Ghaut MRT Station stations to Holland Village MRT Station
+Time out at Dhoby Ghaut MRT Station stations to Hougang MRT Station
+Time out at Dhoby Ghaut MRT Station stations to Joo Koon MRT Station
+Time out at Dhoby Ghaut MRT Station stations to Jurong East MRT Station
+Time out at Dhoby Ghaut MRT Station stations to Kallang MRT Station
+Time out at Dhoby Ghaut MRT Station stations to Kembangan MRT Station
+Time out at Dhoby Ghaut MRT Station stations to Kent Ridge MRT Station
+Time out at Dhoby Ghaut MRT Station stations to Khatib MRT Station
+Time out at Dhoby Ghaut MRT Station stations to King Albert Park MRT Station
+Time out at Dhoby Ghaut MRT Station stations to Kovan MRT Station
+Time out at Dhoby Ghaut MRT Station stations to Kranji MRT Station
+Time out at Dhoby Ghaut MRT Station stations to Labrador Park MRT Station
+Time out at Dhoby Ghaut MRT Station stations to Lakeside MRT Station
+Time out at Dhoby Ghaut MRT Station stations to Lavender MRT Station
+Time out at Dhoby Ghaut MRT Station stations to Little India MRT Station
+Time out at Dhoby Ghaut MRT Station stations to Lorong Chuan MRT Station
+Time out at Dhoby Ghaut MRT Station stations to MacPherson MRT Station
+Time out at Dhoby Ghaut MRT Station stations to Marina Bay MRT Station
+Time out at Dhoby Ghaut MRT Station stations to Marina South Pier MRT Station
+Time out at Dhoby Ghaut MRT Station stations to Marsiling MRT Station
+Time out at Dhoby Ghaut MRT Station stations to Marymount MRT Station
+Time out at Dhoby Ghaut MRT Station stations to Mountbatten MRT Station
+Time out at Dhoby Ghaut MRT Station stations to Newton MRT Station
+Time out at Dhoby Ghaut MRT Station stations to Nicoll Highway MRT Station
+Time out at Dhoby Ghaut MRT Station stations to Novena MRT Station
+Time out at Dhoby Ghaut MRT Station stations to one-north MRT Station
+Time out at Dhoby Ghaut MRT Station stations to Orchard MRT Station
+Time out at Dhoby Ghaut MRT Station stations to Outram Park MRT Station
+Time out at Dhoby Ghaut MRT Station stations to Pasir Panjang MRT Station
+Time out at Dhoby Ghaut MRT Station stations to Pasir Ris MRT Station
+Time out at Dhoby Ghaut MRT Station stations to Paya Lebar MRT Station
+Time out at Dhoby Ghaut MRT Station stations to Pioneer MRT Station
+Time out at Dhoby Ghaut MRT Station stations to Potong Pasir MRT Station
+Time out at Dhoby Ghaut MRT Station stations to Promenade MRT Station
+Time out at Dhoby Ghaut MRT Station stations to Punggol MRT Station
+Time out at Dhoby Ghaut MRT Station stations to Queenstown MRT Station
+Time out at Dhoby Ghaut MRT Station stations to Raffles Place MRT Station
+Time out at Dhoby Ghaut MRT Station stations to Redhill MRT Station
+Time out at Dhoby Ghaut MRT Station stations to Rochor MRT Station
+Time out at Dhoby Ghaut MRT Station stations to Sembawang MRT Station
+Time out at Dhoby Ghaut MRT Station stations to Sengkang MRT Station
+Time out at Dhoby Ghaut MRT Station stations to Serangoon MRT Station
+Time out at Dhoby Ghaut MRT Station stations to Simei MRT Station
+Time out at Dhoby Ghaut MRT Station stations to Sixth Avenue MRT Station
+Time out at Dhoby Ghaut MRT Station stations to Somerset MRT Station
+Time out at Dhoby Ghaut MRT Station stations to Stadium MRT Station
+Time out at Dhoby Ghaut MRT Station stations to Stevens MRT Station
+Time out at Dhoby Ghaut MRT Station stations to Tai Seng MRT Station
+Time out at Dhoby Ghaut MRT Station stations to Tampines MRT Station
+Time out at Dhoby Ghaut MRT Station stations to Tan Kah Kee MRT Station
+Time out at Dhoby Ghaut MRT Station stations to Tanah Merah MRT Station
+Time out at Dhoby Ghaut MRT Station stations to Tanjong Pagar MRT Station
+Time out at Dhoby Ghaut MRT Station stations to Telok Ayer MRT Station
+Time out at Dhoby Ghaut MRT Station stations to Telok Blangah MRT Station
+Time out at Dhoby Ghaut MRT Station stations to Tiong Bahru MRT Station
+Time out at Dhoby Ghaut MRT Station stations to Toa Payoh MRT Station
+Time out at Dhoby Ghaut MRT Station stations to Woodlands MRT Station
+Time out at Dhoby Ghaut MRT Station stations to Woodleigh MRT Station
+Time out at Dhoby Ghaut MRT Station stations to Yew Tee MRT Station
+Time out at Dhoby Ghaut MRT Station stations to Yio Chu Kang MRT Station
+Time out at Dhoby Ghaut MRT Station stations to Yishun MRT Station
+Time out at Dover MRT Station stations to Kembangan MRT Station
+Time out at Dover MRT Station stations to Lavender MRT Station
+Time out at Downtown MRT Station stations to Kembangan MRT Station
+Time out at Downtown MRT Station stations to Lavender MRT Station
+Time out at Downtown MRT Station stations to Raffles Place MRT Station
+Time out at Downtown MRT Station stations to Telok Ayer MRT Station
+Time out at Esplanade MRT Station stations to Kembangan MRT Station
+Time out at Esplanade MRT Station stations to Lavender MRT Station
+Time out at Esplanade MRT Station stations to Promenade MRT Station
+Time out at Eunos MRT Station stations to Kembangan MRT Station
+Time out at Eunos MRT Station stations to Lavender MRT Station
+Time out at Expo MRT Station stations to Kembangan MRT Station
+Time out at Expo MRT Station stations to Lavender MRT Station
+Time out at Farrer Park MRT Station stations to Kembangan MRT Station
+Time out at Farrer Park MRT Station stations to Lavender MRT Station
+Time out at Farrer Road MRT Station stations to Kembangan MRT Station
+Time out at Farrer Road MRT Station stations to Lavender MRT Station
+Time out at HarbourFront MRT Station stations to Kembangan MRT Station
+Time out at HarbourFront MRT Station stations to Lavender MRT Station
+Time out at Haw Par Villa MRT Station stations to Kembangan MRT Station
+Time out at Haw Par Villa MRT Station stations to Lavender MRT Station
+Time out at Hillview MRT Station stations to Kembangan MRT Station
+Time out at Hillview MRT Station stations to Lavender MRT Station
+Time out at Holland Village MRT Station stations to Kembangan MRT Station
+Time out at Holland Village MRT Station stations to Lavender MRT Station
+Time out at Hougang MRT Station stations to Kembangan MRT Station
+Time out at Hougang MRT Station stations to Lavender MRT Station
+Time out at Hougang MRT Station stations to Rochor MRT Station
+ElementNotVisibleException - line 226 - first_suggestion.click()
