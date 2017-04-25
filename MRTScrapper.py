@@ -140,7 +140,7 @@ busTime = []
 busFare = []
 busMRTTime = []
 busMRTFare = []
-start = 91
+start = 50
 end = len(MRT_STATIONS)
 
 for k in xrange(0,start):
@@ -234,7 +234,7 @@ for i in xrange(start,end):#len(MRT_STATIONS)):	# Change range here for differen
 				try:
 					first_suggestion = WebDriverWait(driver,10).until(EC.presence_of_element_located((By.XPATH,"//*[@id=\"infos\"]/table/tbody/tr[2]")))
 					first_suggestion.click()
-				except (TimeoutException , ElementNotVisibleException ) , e:
+				except Exception , e:
 					print "Did not find first suggestion for %s to %s " %(MRT_STATIONS[i], MRT_STATIONS[j])
 					ERROR_LOG.write("Did not find first suggestion for %s to %s \n%s\n" %(MRT_STATIONS[i], MRT_STATIONS[j],e))
 					inputError(carTime,carDist,taxiTime,taxiFare,busFare,busTime,busMRTTime,busMRTFare,j)
@@ -243,7 +243,7 @@ for i in xrange(start,end):#len(MRT_STATIONS)):	# Change range here for differen
 				try:
 					second_suggestion = WebDriverWait(driver,10).until(EC.presence_of_element_located((By.XPATH,"//*[@id=\"infos\"]/table/tbody/tr[2]")))
 					second_suggestion.click()
-				except (TimeoutException , ElementNotVisibleException ) , e:
+				except Exception , e:
 					print "Did not find second suggestion for %s to %s " %(MRT_STATIONS[i], MRT_STATIONS[j])
 					ERROR_LOG.write("Did not find second suggestion for %s to %s \n%s\n" %(MRT_STATIONS[i], MRT_STATIONS[j],e))
 					inputError(carTime,carDist,taxiTime,taxiFare,busFare,busTime,busMRTTime,busMRTFare,j)
