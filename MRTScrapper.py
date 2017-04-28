@@ -140,7 +140,7 @@ busTime = []
 busFare = []
 busMRTTime = []
 busMRTFare = []
-start = 50
+start = 
 end = len(MRT_STATIONS)
 
 for k in xrange(0,start):
