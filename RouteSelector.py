@@ -56,7 +56,7 @@ for L in range(0, len(MRTCOMBI)):
 	prevBestTime = sys.maxint
 	bestCombi = ()
     for subset in itertools.permutations(MRTCOMBI.keys(), L):
-    	for i in xrange(len(subset)):	# Stop at second last option as it is from mrt station to School
+    	for i in xrange(len(subset)):
     		time += lookup(subset[i],subset[i+1])
 		time += mrtToSchool(subset[len(subset)-1])	# find time to travel from last station to school
     	# Implement algorithm to look up travel times to different locations -- lookup(origin,destination)
