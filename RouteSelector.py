@@ -3,13 +3,17 @@ import itertools
 import re
 import sys
 
-MRTCOMBI = []
+MRTFULLCOMBI = []
 SUTDLOOKUPTABLE = {}
 MRTLOOKUPTABLE = []
+START = 0
+END = 37062
 with open('MRTCombinations.csv', 'rb') as f:
     reader = csv.reader(f)
     for row in reader:
-    	MRTCOMBI.append(row)
+    	MRTFULLCOMBI.append(row)
+
+MRTCOMBI = MRTFULLCOMBI[START:END]
 
 with open('Mrt to SUTD compiled.csv', 'rb') as f:
     reader = csv.reader(f)
@@ -69,24 +73,28 @@ def lookup(origin, destination):
 def mrtToSchool(origin):
 	return SUTDLOOKUPTABLE[origin] 
 
-BEST_COMBI_RECORD = open("InitialOptimisedRoutes.csv","w")
+BEST_COMBI_RECORD = open("InitialOptimisedRoutes%sTo%s.csv"%(START,END),"w")
 
 print "Starting ..."
-time = 0
-prevBestTime = sys.maxint
-bestCombi = ()
-for subset in itertools.permutations(MRTCOMBI):
-	for j in subset:
-		for i in range(len(j)-1):
-			time += lookup(j[i].strip("'").strip(" '"),j[i+1].strip("'").strip(" '"))
-		time += mrtToSchool(j[len(j)-1].strip("'").strip(" '"))	# find time to travel from last station to school
+
+for combi in MRTCOMBI:
+	time = 0
+	bestCombi = ()	
+	prevBestTime = sys.maxint
+	# print combi
+	for subset in itertools.permutations(combi):
+		for i in range(len(subset)-1):
+			time += lookup(subset[i].strip("'").strip(" '"),subset[i+1].strip("'").strip(" '"))
+		time += mrtToSchool(subset[len(subset)-1].strip("'").strip(" '"))	# find time to travel from last station to school
 		# Implement algorithm to look up travel times to different locations -- lookup(origin,destination)
 		if time < prevBestTime:
 			prevBestTime = time
-			bestCombi = j
-		if prevBestTime < MAXTRAVELTIME:
-			BEST_COMBI_RECORD.write(str(bestCombi).strip("(").strip(")")+","
-										+ str(prevBestTime) + "\n")
+			bestCombi = subset
+		time = 0
+	if prevBestTime < MAXTRAVELTIME:
+		# print "best combi is " + str(bestCombi)
+		BEST_COMBI_RECORD.write(str(bestCombi).strip("(").strip(")")+","+ str(prevBestTime) + "\n")
 
 BEST_COMBI_RECORD.close()
 
+print "END"
