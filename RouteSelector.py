@@ -78,7 +78,7 @@ BEST_COMBI_RECORD = open("InitialOptimisedRoutes%sTo%s.csv"%(START,END),"w")
 print "Starting ..."
 
 for combi in MRTCOMBI:
-	time = 0
+	time = 1
 	bestCombi = ()	
 	prevBestTime = sys.maxint
 	# print combi
@@ -90,7 +90,7 @@ for combi in MRTCOMBI:
 		if time < prevBestTime:
 			prevBestTime = time
 			bestCombi = subset
-		time = 0
+		time = 1
 	if prevBestTime < MAXTRAVELTIME:
 		print "best combi is " + str(bestCombi)
 		print prevBestTime	
