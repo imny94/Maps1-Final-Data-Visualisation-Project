@@ -41,7 +41,7 @@ for i in xrange(0,MAXVISITS+1):
 			write = False	
 		if write:
 			# print str(subSet) +" : " +  str(counter)
-			MRTPermutations.write(str(subSet).strip("(").strip(")")+","+str(counter)+"\n")
+			MRTPermutations.write(str(subSet).strip("(").strip(")")	+"\n")
 
 
 # for i in xrange(0,MAXVISITS+1):

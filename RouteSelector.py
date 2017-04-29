@@ -1,17 +1,33 @@
 import csv
 import itertools
+import re
+import sys
 
-MRTCOMBI = {}
-
+MRTCOMBI = []
+SUTDLOOKUPTABLE = {}
+MRTLOOKUPTABLE = []
 with open('MRTCombinations.csv', 'rb') as f:
+    reader = csv.reader(f)
+    for row in reader:
+    	MRTCOMBI.append(row)
+
+with open('Mrt to SUTD compiled.csv', 'rb') as f:
     reader = csv.reader(f)
     skip = True
     for row in reader:
-    	MRTCOMBI[row[0,len(row)-2]] = row[-1]
+    	if skip :
+    		skip = False
+    		continue
+    	SUTDLOOKUPTABLE[row[0]] = int(row[3].strip(" min"))
 
-# SUTDLOOKUP = open("MRTTOSUTD.csv", "rb")
+with open('carTimeCompiled25clean.csv', 'rb') as f:
+    reader = csv.reader(f)
+    for row in reader:
+    	MRTLOOKUPTABLE.append(row)
+
+# SUTDLOOKUP = open("Mrt to SUTD compiled.csv", "rb")		# This is a record of the travel time to drive from a given mrt to school
 # SUTDLOOKUPREADER = csv.reader(SUTDLOOKUP)
-# MRTLOOKUP = open("MRTTOMRT.csv", "rb")
+# MRTLOOKUP = open("carTimeCompiled25clean.csv", "rb")	# This is the travel time to drive between stations
 # MRTLOOKUPREADER = csv.reader(MRTLOOKUP)
 MRTINDEX = {}
 CACHE = {}
@@ -30,39 +46,44 @@ INVALID = ["N.A","Sorry"]
 MAXTRAVELTIME = 60 # 1 hour
 
 def lookup(origin, destination):
-	originIndex = MRTINDEX[origin]
-	destIndex = MRTINDEX[destination]
 	if destination not in CACHE[origin]:
-		if MRTLOOKUPREADER[originIndex+1][destIndex] not in INVALID: # +1 for origin index as file has mrt station names for first row
-			# good to go
-			return MRTLOOKUPREADER[originIndex+1][destIndex]
+		originIndex = MRTINDEX[origin]
+		destIndex = MRTINDEX[destination]
+		if originIndex < destIndex:
+			smaller = originIndex
+			larger = destIndex
 		else:
-			# Take time from destination index
-			if MRTLOOKUPREADER[destIndex][originIndex+1] not in INVALID:
-				return MRTLOOKUPREADER[destIndex][originIndex+1]
-			else:
-				print "ERROR"
+			smaller = destIndex
+			larger = originIndex
+		if MRTLOOKUPTABLE[smaller+1][larger+1] not in INVALID:
+			# print MRTLOOKUPTABLE[smaller+1][larger+1]
+			CACHE[origin][destination] = int(MRTLOOKUPTABLE[smaller+1][larger+1])
+			return int(MRTLOOKUPTABLE[smaller+1][larger+1])
+		print "Error!"
+		print  origin + " to " + destination
+		print str(originIndex)+":"+str(destIndex)
 	else:
+		# print CACHE[origin][destination]
 		return CACHE[origin][destination]
 
 def mrtToSchool(origin):
-	originIndex = MRTINDEX[origin]
-	return SUTDLOOKUPREADER[1][originIndex] # First row of file is station name, second row is timing
+	return SUTDLOOKUPTABLE[origin] 
 
 BEST_COMBI_RECORD = open("InitialOptimisedRoutes.csv","w")
 
-for L in range(0, len(MRTCOMBI)):
-	time = 0
-	prevBestTime = sys.maxint
-	bestCombi = ()
-    for subset in itertools.permutations(MRTCOMBI.keys(), L):
-    	for i in xrange(len(subset)):
-    		time += lookup(subset[i],subset[i+1])
-		time += mrtToSchool(subset[len(subset)-1])	# find time to travel from last station to school
-    	# Implement algorithm to look up travel times to different locations -- lookup(origin,destination)
+print "Starting ..."
+time = 0
+prevBestTime = sys.maxint
+bestCombi = ()
+for subset in itertools.permutations(MRTCOMBI):
+	for j in subset:
+		for i in range(len(j)-1):
+			time += lookup(j[i].strip("'").strip(" '"),j[i+1].strip("'").strip(" '"))
+		time += mrtToSchool(j[len(j)-1].strip("'").strip(" '"))	# find time to travel from last station to school
+		# Implement algorithm to look up travel times to different locations -- lookup(origin,destination)
 		if time < prevBestTime:
 			prevBestTime = time
-			bestCombi = subset
+			bestCombi = j
 		if prevBestTime < MAXTRAVELTIME:
 			BEST_COMBI_RECORD.write(str(bestCombi).strip("(").strip(")")+","
 										+ str(prevBestTime) + "\n")
