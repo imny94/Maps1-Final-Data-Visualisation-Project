@@ -3,7 +3,7 @@ import csv
 
 initialRoutes = []
 possibleRoutes = []
-NUMBUSES = 3
+NUMBUSES = 2
 
 print "Starting..."
 with open("SortedOptimisedRoutes.csv","rb") as f:

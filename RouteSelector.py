@@ -59,10 +59,10 @@ def lookup(origin, destination):
 		else:
 			smaller = destIndex
 			larger = originIndex
-		if MRTLOOKUPTABLE[smaller+1][larger+1] not in INVALID:
+		if MRTLOOKUPTABLE[smaller+1][larger] not in INVALID:
 			# print MRTLOOKUPTABLE[smaller+1][larger+1]
-			CACHE[origin][destination] = int(MRTLOOKUPTABLE[smaller+1][larger+1])
-			return int(MRTLOOKUPTABLE[smaller+1][larger+1])
+			CACHE[origin][destination] = int(MRTLOOKUPTABLE[smaller+1][larger])
+			return int(MRTLOOKUPTABLE[smaller+1][larger])
 		print "Error!"
 		print  origin + " to " + destination
 		print str(originIndex)+":"+str(destIndex)
@@ -92,7 +92,8 @@ for combi in MRTCOMBI:
 			bestCombi = subset
 		time = 0
 	if prevBestTime < MAXTRAVELTIME:
-		# print "best combi is " + str(bestCombi)
+		print "best combi is " + str(bestCombi)
+		print prevBestTime	
 		BEST_COMBI_RECORD.write(str(bestCombi).strip("(").strip(")")+","+ str(prevBestTime) + "\n")
 
 BEST_COMBI_RECORD.close()
