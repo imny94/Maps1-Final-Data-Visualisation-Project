@@ -1,12 +1,14 @@
 import csv
 import re
 
+ITER = 4
+
 def run():
 	unsorted = []
 
 	formatList = []
 	print "Starting ..."
-	with open("InitialOptimisedRoutes.csv","rb") as f:
+	with open("InitialOptimisedRoutes%s.csv"%ITER,"rb") as f:
 		reader = csv.reader(f)
 		for row in reader:
 			for i in row:
@@ -17,7 +19,7 @@ def run():
 			formatList = []
 	print "Done reading in Initial optimised routes ... "
 	MRT_STATIONS = {}				# This is to record the number of people served per station
-	with open('mrtnamesTest.csv', 'rb') as f:
+	with open('mrtnamesTest%s.csv'%ITER, 'rb') as f:
 	    reader = csv.reader(f)
 	    skip = True
 	    for row in reader:
@@ -51,7 +53,7 @@ def run():
 			sortedList.append(tempList)
 
 	print "Saving out results ..."
-	with open("SortedOptimisedRoutes.csv","wb") as f:
+	with open("SortedOptimisedRoutes%s.csv"%ITER,"wb") as f:
 		writer = csv.writer(f)
 		for i in sortedList:
 			writer.writerow(i)

@@ -2,15 +2,16 @@ import copy
 import csv
 import re
 
-MAXVISITS = 5
+MAXVISITS = 6
 MAXCAP = 50 # Allow some over-crowding
 MINPAX = 35
 
 # MRT_STATIONS = []
 MRT_STATIONS = {}
+ITER = 4
 
 def run():
-	with open('mrtnamesTest.csv', 'rb') as f:
+	with open('mrtnamesTest%s.csv'%ITER, 'rb') as f:
 	    reader = csv.reader(f)
 	    skip = True
 	    for row in reader:
@@ -25,7 +26,7 @@ def run():
 	        MRT_STATIONS[name] = row[1]
 
 	listOfConfigurations = []
-	MRTPermutations = open('MRTCombinations.csv','w')
+	MRTPermutations = open('MRTCombinations%s.csv'%ITER,'w')
 
 	print "starting..."
 

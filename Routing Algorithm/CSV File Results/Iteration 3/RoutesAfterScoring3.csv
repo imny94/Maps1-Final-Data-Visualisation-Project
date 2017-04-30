@@ -1,0 +1,174 @@
+Score,Route Travel Time,Number of pax served,Route,,,,
+1.093333333,40,38, Yew Tee MRT Station,  Choa Chu Kang MRT Station, Bukit Panjang MRT Station,  Beauty World MRT Station,  Somerset MRT Station
+1.09,39,37, Yew Tee MRT Station,  Choa Chu Kang MRT Station, Bukit Panjang MRT Station,  Beauty World MRT Station,  Serangoon MRT Station
+1.056666667,41,37, Yew Tee MRT Station,  Choa Chu Kang MRT Station, Bukit Panjang MRT Station,  Somerset MRT Station,  Serangoon MRT Station
+1.053333333,40,36, Yew Tee MRT Station,  Choa Chu Kang MRT Station, Bukit Panjang MRT Station,  Chinese Garden MRT Station,  Beauty World MRT Station
+1.046666667,44,39,Woodlands MRT Station,  Choa Chu Kang MRT Station,  Yew Tee MRT Station,  Bukit Panjang MRT Station,  Beauty World MRT Station
+1.04,42,37, Choa Chu Kang MRT Station, Bukit Panjang MRT Station,  Beauty World MRT Station,  Somerset MRT Station,  Serangoon MRT Station
+1.026666667,44,38, Yew Tee MRT Station,  Choa Chu Kang MRT Station,  Bukit Panjang MRT Station, Woodlands MRT Station,  Serangoon MRT Station
+1.023333333,43,37, Yew Tee MRT Station, Bukit Panjang MRT Station,  Beauty World MRT Station,  Somerset MRT Station,  Serangoon MRT Station
+1.02,42,36, Yew Tee MRT Station,  Choa Chu Kang MRT Station, Bukit Panjang MRT Station,  Jurong East MRT Station,  Beauty World MRT Station
+1.006666667,44,37, Yew Tee MRT Station,  Choa Chu Kang MRT Station,  Bukit Panjang MRT Station, Clementi MRT Station,  Beauty World MRT Station
+1.006666667,44,37, Choa Chu Kang MRT Station,  Bukit Panjang MRT Station,  Beauty World MRT Station, Clementi MRT Station,  Somerset MRT Station
+1.006666667,44,37, Pioneer MRT Station,  Choa Chu Kang MRT Station,  Yew Tee MRT Station, Bukit Panjang MRT Station,  Beauty World MRT Station
+0.996666667,47,39,Woodlands MRT Station,  Choa Chu Kang MRT Station,  Yew Tee MRT Station,  Bukit Panjang MRT Station,  Somerset MRT Station
+0.996666667,47,39,Woodlands MRT Station,  Choa Chu Kang MRT Station,  Bukit Panjang MRT Station,  Beauty World MRT Station,  Somerset MRT Station
+0.993333333,46,38,Woodlands MRT Station,  Choa Chu Kang MRT Station,  Bukit Panjang MRT Station,  Beauty World MRT Station,  Serangoon MRT Station
+0.99,45,37, Yew Tee MRT Station,  Bukit Panjang MRT Station,  Beauty World MRT Station, Clementi MRT Station,  Somerset MRT Station
+0.99,45,37, Chinese Garden MRT Station,  Bukit Panjang MRT Station,  Yew Tee MRT Station,  Choa Chu Kang MRT Station, Woodlands MRT Station
+0.986666667,44,36, Bukit Panjang MRT Station,  Beauty World MRT Station, Clementi MRT Station,  Somerset MRT Station,  Serangoon MRT Station
+0.986666667,44,36, Yew Tee MRT Station,  Choa Chu Kang MRT Station, Bukit Panjang MRT Station,  Chinese Garden MRT Station,  Somerset MRT Station
+0.986666667,44,36, Choa Chu Kang MRT Station, Bukit Panjang MRT Station,  Chinese Garden MRT Station,  Beauty World MRT Station,  Somerset MRT Station
+0.983333333,43,35, Choa Chu Kang MRT Station,  Bukit Panjang MRT Station,  Chinese Garden MRT Station, Clementi MRT Station,  Beauty World MRT Station
+0.983333333,43,35, Choa Chu Kang MRT Station,  Bukit Panjang MRT Station,  Jurong East MRT Station, Clementi MRT Station,  Beauty World MRT Station
+0.983333333,43,35, Yew Tee MRT Station,  Choa Chu Kang MRT Station, Bukit Panjang MRT Station,  Chinese Garden MRT Station,  Serangoon MRT Station
+0.983333333,43,35, Choa Chu Kang MRT Station, Bukit Panjang MRT Station,  Chinese Garden MRT Station,  Beauty World MRT Station,  Serangoon MRT Station
+0.976666667,47,38,Clementi MRT Station,  Beauty World MRT Station,  Bukit Panjang MRT Station,  Choa Chu Kang MRT Station,  Woodlands MRT Station
+0.976666667,47,38, Pioneer MRT Station,  Choa Chu Kang MRT Station,  Yew Tee MRT Station,  Bukit Panjang MRT Station, Woodlands MRT Station
+0.976666667,47,38,Woodlands MRT Station,  Bukit Panjang MRT Station,  Beauty World MRT Station,  Somerset MRT Station,  Serangoon MRT Station
+0.973333333,46,37, Yew Tee MRT Station,  Choa Chu Kang MRT Station,  Bukit Panjang MRT Station, Clementi MRT Station,  Somerset MRT Station
+0.973333333,46,37, Jurong East MRT Station,  Bukit Panjang MRT Station,  Yew Tee MRT Station,  Choa Chu Kang MRT Station, Woodlands MRT Station
+0.97,45,36, Choa Chu Kang MRT Station,  Bukit Panjang MRT Station,  Beauty World MRT Station, Clementi MRT Station,  Serangoon MRT Station
+0.97,45,36, Pioneer MRT Station,  Choa Chu Kang MRT Station,  Yew Tee MRT Station, Bukit Panjang MRT Station,  Serangoon MRT Station
+0.97,45,36, Yew Tee MRT Station,  Choa Chu Kang MRT Station, Bukit Panjang MRT Station,  Jurong East MRT Station,  Somerset MRT Station
+0.97,45,36, Yew Tee MRT Station, Bukit Panjang MRT Station,  Chinese Garden MRT Station,  Beauty World MRT Station,  Somerset MRT Station
+0.966666667,44,35, Yew Tee MRT Station,  Bukit Panjang MRT Station,  Chinese Garden MRT Station, Clementi MRT Station,  Beauty World MRT Station
+0.966666667,44,35, Yew Tee MRT Station,  Bukit Panjang MRT Station,  Jurong East MRT Station, Clementi MRT Station,  Beauty World MRT Station
+0.966666667,44,35, Jurong East MRT Station,  Chinese Garden MRT Station,  Bukit Panjang MRT Station,  Choa Chu Kang MRT Station, Woodlands MRT Station
+0.966666667,44,35, Yew Tee MRT Station,  Choa Chu Kang MRT Station, Bukit Panjang MRT Station,  Jurong East MRT Station,  Serangoon MRT Station
+0.966666667,44,35, Yew Tee MRT Station, Bukit Panjang MRT Station,  Chinese Garden MRT Station,  Beauty World MRT Station,  Serangoon MRT Station
+0.966666667,44,35,Bukit Panjang MRT Station,  Chinese Garden MRT Station,  Beauty World MRT Station,  Somerset MRT Station,  Serangoon MRT Station
+0.96,48,38,Woodlands MRT Station,  Choa Chu Kang MRT Station,  Bukit Panjang MRT Station,  Somerset MRT Station,  Serangoon MRT Station
+0.956666667,47,37,Woodlands MRT Station,  Choa Chu Kang MRT Station,  Bukit Panjang MRT Station,  Chinese Garden MRT Station,  Beauty World MRT Station
+0.956666667,47,37, Pioneer MRT Station,  Choa Chu Kang MRT Station,  Yew Tee MRT Station, Bukit Panjang MRT Station,  Somerset MRT Station
+0.956666667,47,37, Pioneer MRT Station,  Choa Chu Kang MRT Station, Bukit Panjang MRT Station,  Beauty World MRT Station,  Somerset MRT Station
+0.953333333,46,36, Yew Tee MRT Station,  Bukit Panjang MRT Station,  Beauty World MRT Station, Clementi MRT Station,  Serangoon MRT Station
+0.953333333,46,36, Pioneer MRT Station,  Choa Chu Kang MRT Station, Bukit Panjang MRT Station,  Beauty World MRT Station,  Serangoon MRT Station
+0.953333333,46,36, Choa Chu Kang MRT Station, Bukit Panjang MRT Station,  Jurong East MRT Station,  Beauty World MRT Station,  Somerset MRT Station
+0.95,45,35, Yew Tee MRT Station,  Choa Chu Kang MRT Station,  Bukit Panjang MRT Station,  Chinese Garden MRT Station, Clementi MRT Station
+0.95,45,35, Yew Tee MRT Station,  Choa Chu Kang MRT Station,  Bukit Panjang MRT Station,  Jurong East MRT Station, Clementi MRT Station
+0.95,45,35, Choa Chu Kang MRT Station,  Bukit Panjang MRT Station,  Chinese Garden MRT Station, Clementi MRT Station,  Somerset MRT Station
+0.95,45,35, Choa Chu Kang MRT Station,  Bukit Panjang MRT Station,  Jurong East MRT Station, Clementi MRT Station,  Somerset MRT Station
+0.95,45,35, Bukit Panjang MRT Station,  Chinese Garden MRT Station, Clementi MRT Station,  Beauty World MRT Station,  Somerset MRT Station
+0.95,45,35, Bukit Panjang MRT Station,  Jurong East MRT Station, Clementi MRT Station,  Beauty World MRT Station,  Somerset MRT Station
+0.95,45,35, Choa Chu Kang MRT Station, Bukit Panjang MRT Station,  Jurong East MRT Station,  Beauty World MRT Station,  Serangoon MRT Station
+0.946666667,50,39,Woodlands MRT Station,  Yew Tee MRT Station,  Bukit Panjang MRT Station,  Beauty World MRT Station,  Somerset MRT Station
+0.943333333,49,38, Woodlands MRT Station,  Bukit Panjang MRT Station,  Beauty World MRT Station, Clementi MRT Station,  Somerset MRT Station
+0.943333333,49,38,Woodlands MRT Station,  Yew Tee MRT Station,  Bukit Panjang MRT Station,  Beauty World MRT Station,  Serangoon MRT Station
+0.936666667,47,36, Yew Tee MRT Station,  Choa Chu Kang MRT Station,  Bukit Panjang MRT Station, Clementi MRT Station,  Serangoon MRT Station
+0.936666667,47,36, Yew Tee MRT Station, Bukit Panjang MRT Station,  Jurong East MRT Station,  Beauty World MRT Station,  Somerset MRT Station
+0.933333333,46,35, Yew Tee MRT Station,  Bukit Panjang MRT Station,  Chinese Garden MRT Station, Clementi MRT Station,  Somerset MRT Station
+0.933333333,46,35, Yew Tee MRT Station,  Bukit Panjang MRT Station,  Jurong East MRT Station, Clementi MRT Station,  Somerset MRT Station
+0.933333333,46,35,Woodlands MRT Station,  Bukit Panjang MRT Station,  Chinese Garden MRT Station,  Jurong East MRT Station,  Beauty World MRT Station
+0.933333333,46,35, Choa Chu Kang MRT Station, Bukit Panjang MRT Station,  Chinese Garden MRT Station,  Somerset MRT Station,  Serangoon MRT Station
+0.933333333,46,35, Yew Tee MRT Station, Bukit Panjang MRT Station,  Jurong East MRT Station,  Beauty World MRT Station,  Serangoon MRT Station
+0.933333333,46,35,Bukit Panjang MRT Station,  Jurong East MRT Station,  Beauty World MRT Station,  Somerset MRT Station,  Serangoon MRT Station
+0.926666667,50,38,Clementi MRT Station,  Bukit Panjang MRT Station,  Yew Tee MRT Station,  Choa Chu Kang MRT Station,  Woodlands MRT Station
+0.926666667,50,38,Clementi MRT Station,  Beauty World MRT Station,  Bukit Panjang MRT Station,  Yew Tee MRT Station,  Woodlands MRT Station
+0.923333333,49,37,Woodlands MRT Station,  Choa Chu Kang MRT Station,  Bukit Panjang MRT Station,  Jurong East MRT Station,  Beauty World MRT Station
+0.923333333,49,37,Woodlands MRT Station,  Bukit Panjang MRT Station,  Chinese Garden MRT Station,  Beauty World MRT Station,  Somerset MRT Station
+0.923333333,49,37, Pioneer MRT Station,  Yew Tee MRT Station, Bukit Panjang MRT Station,  Beauty World MRT Station,  Somerset MRT Station
+0.92,48,36,Clementi MRT Station,  Chinese Garden MRT Station,  Bukit Panjang MRT Station,  Choa Chu Kang MRT Station,  Woodlands MRT Station
+0.92,48,36,Clementi MRT Station,  Jurong East MRT Station,  Bukit Panjang MRT Station,  Choa Chu Kang MRT Station,  Woodlands MRT Station
+0.92,48,36, Woodlands MRT Station,  Bukit Panjang MRT Station,  Chinese Garden MRT Station, Clementi MRT Station,  Beauty World MRT Station
+0.92,48,36, Woodlands MRT Station,  Bukit Panjang MRT Station,  Jurong East MRT Station, Clementi MRT Station,  Beauty World MRT Station
+0.92,48,36, Bukit Panjang MRT Station,  Choa Chu Kang MRT Station,  Pioneer MRT Station, Clementi MRT Station,  Beauty World MRT Station
+0.92,48,36, Choa Chu Kang MRT Station,  Bukit Panjang MRT Station, Clementi MRT Station,  Somerset MRT Station,  Serangoon MRT Station
+0.92,48,36,Woodlands MRT Station,  Bukit Panjang MRT Station,  Chinese Garden MRT Station,  Beauty World MRT Station,  Serangoon MRT Station
+0.92,48,36,Woodlands MRT Station,  Choa Chu Kang MRT Station,  Yew Tee MRT Station,  Beauty World MRT Station,  Somerset MRT Station
+0.92,48,36, Pioneer MRT Station,  Choa Chu Kang MRT Station, Bukit Panjang MRT Station,  Somerset MRT Station,  Serangoon MRT Station
+0.92,48,36, Pioneer MRT Station,  Yew Tee MRT Station, Bukit Panjang MRT Station,  Beauty World MRT Station,  Serangoon MRT Station
+0.916666667,47,35, Jurong East MRT Station,  Chinese Garden MRT Station,  Bukit Panjang MRT Station,  Yew Tee MRT Station, Woodlands MRT Station
+0.916666667,47,35,Woodlands MRT Station,  Choa Chu Kang MRT Station,  Yew Tee MRT Station,  Beauty World MRT Station,  Serangoon MRT Station
+0.916666667,47,35, Chinese Garden MRT Station,  Pioneer MRT Station,  Choa Chu Kang MRT Station,  Yew Tee MRT Station, Bukit Panjang MRT Station
+0.916666667,47,35,Bukit Panjang MRT Station,  Choa Chu Kang MRT Station,  Pioneer MRT Station,  Chinese Garden MRT Station,  Beauty World MRT Station
+0.916666667,47,35, Choa Chu Kang MRT Station, Bukit Panjang MRT Station,  Jurong East MRT Station,  Somerset MRT Station,  Serangoon MRT Station
+0.916666667,47,35, Yew Tee MRT Station, Bukit Panjang MRT Station,  Chinese Garden MRT Station,  Somerset MRT Station,  Serangoon MRT Station
+0.91,51,38,Woodlands MRT Station,  Bukit Panjang MRT Station,  Yew Tee MRT Station,  Somerset MRT Station,  Serangoon MRT Station
+0.906666667,50,37,Clementi MRT Station,  Beauty World MRT Station,  Bukit Panjang MRT Station,  Woodlands MRT Station,  Serangoon MRT Station
+0.906666667,50,37,Woodlands MRT Station,  Yew Tee MRT Station,  Bukit Panjang MRT Station,  Chinese Garden MRT Station,  Beauty World MRT Station
+0.903333333,49,36,Clementi MRT Station,  Pioneer MRT Station,  Choa Chu Kang MRT Station,  Yew Tee MRT Station,  Bukit Panjang MRT Station
+0.903333333,49,36, Yew Tee MRT Station,  Bukit Panjang MRT Station, Clementi MRT Station,  Somerset MRT Station,  Serangoon MRT Station
+0.903333333,49,36, Pioneer MRT Station,  Chinese Garden MRT Station,  Bukit Panjang MRT Station,  Choa Chu Kang MRT Station, Woodlands MRT Station
+0.903333333,49,36, Chinese Garden MRT Station,  Bukit Panjang MRT Station,  Choa Chu Kang MRT Station, Woodlands MRT Station,  Serangoon MRT Station
+0.903333333,49,36, Pioneer MRT Station, Bukit Panjang MRT Station,  Beauty World MRT Station,  Somerset MRT Station,  Serangoon MRT Station
+0.9,48,35,Clementi MRT Station,  Beauty World MRT Station,  Yew Tee MRT Station,  Choa Chu Kang MRT Station,  Woodlands MRT Station
+0.9,48,35,Woodlands MRT Station,  Choa Chu Kang MRT Station,  Yew Tee MRT Station,  Somerset MRT Station,  Serangoon MRT Station
+0.9,48,35, Jurong East MRT Station,  Pioneer MRT Station,  Choa Chu Kang MRT Station,  Yew Tee MRT Station, Bukit Panjang MRT Station
+0.9,48,35, Yew Tee MRT Station, Bukit Panjang MRT Station,  Jurong East MRT Station,  Somerset MRT Station,  Serangoon MRT Station
+0.9,48,35, Pioneer MRT Station,  Chinese Garden MRT Station, Bukit Panjang MRT Station,  Beauty World MRT Station,  Somerset MRT Station
+0.89,51,37,Woodlands MRT Station,  Choa Chu Kang MRT Station,  Bukit Panjang MRT Station,  Chinese Garden MRT Station,  Somerset MRT Station
+0.89,51,37, Pioneer MRT Station,  Choa Chu Kang MRT Station,  Bukit Panjang MRT Station, Woodlands MRT Station,  Serangoon MRT Station
+0.89,51,37,Woodlands MRT Station,  Bukit Panjang MRT Station,  Jurong East MRT Station,  Beauty World MRT Station,  Somerset MRT Station
+0.886666667,50,36, Woodlands MRT Station,  Bukit Panjang MRT Station,  Chinese Garden MRT Station, Clementi MRT Station,  Somerset MRT Station
+0.886666667,50,36, Woodlands MRT Station,  Bukit Panjang MRT Station,  Jurong East MRT Station, Clementi MRT Station,  Somerset MRT Station
+0.886666667,50,36, Bukit Panjang MRT Station,  Choa Chu Kang MRT Station,  Pioneer MRT Station, Clementi MRT Station,  Somerset MRT Station
+0.886666667,50,36, Bukit Panjang MRT Station,  Yew Tee MRT Station,  Pioneer MRT Station, Clementi MRT Station,  Beauty World MRT Station
+0.886666667,50,36, Jurong East MRT Station,  Bukit Panjang MRT Station,  Choa Chu Kang MRT Station, Woodlands MRT Station,  Serangoon MRT Station
+0.886666667,50,36,Woodlands MRT Station,  Bukit Panjang MRT Station,  Jurong East MRT Station,  Beauty World MRT Station,  Serangoon MRT Station
+0.886666667,50,36, Pioneer MRT Station,  Yew Tee MRT Station, Bukit Panjang MRT Station,  Somerset MRT Station,  Serangoon MRT Station
+0.883333333,49,35,Woodlands MRT Station,  Bukit Panjang MRT Station,  Chinese Garden MRT Station,  Jurong East MRT Station,  Somerset MRT Station
+0.883333333,49,35,Bukit Panjang MRT Station,  Choa Chu Kang MRT Station,  Pioneer MRT Station,  Jurong East MRT Station,  Beauty World MRT Station
+0.883333333,49,35,Bukit Panjang MRT Station,  Yew Tee MRT Station,  Pioneer MRT Station,  Chinese Garden MRT Station,  Beauty World MRT Station
+0.876666667,53,38, Woodlands MRT Station,  Choa Chu Kang MRT Station,  Bukit Panjang MRT Station, Clementi MRT Station,  Somerset MRT Station
+0.876666667,53,38, Pioneer MRT Station,  Beauty World MRT Station,  Bukit Panjang MRT Station,  Choa Chu Kang MRT Station, Woodlands MRT Station
+0.873333333,52,37, Pioneer MRT Station, Clementi MRT Station,  Beauty World MRT Station,  Bukit Panjang MRT Station,  Woodlands MRT Station
+0.873333333,52,37,Woodlands MRT Station,  Choa Chu Kang MRT Station,  Bukit Panjang MRT Station,  Jurong East MRT Station,  Somerset MRT Station
+0.873333333,52,37,Woodlands MRT Station,  Yew Tee MRT Station,  Bukit Panjang MRT Station,  Jurong East MRT Station,  Beauty World MRT Station
+0.87,51,36,Clementi MRT Station,  Chinese Garden MRT Station,  Bukit Panjang MRT Station,  Yew Tee MRT Station,  Woodlands MRT Station
+0.87,51,36,Clementi MRT Station,  Jurong East MRT Station,  Bukit Panjang MRT Station,  Yew Tee MRT Station,  Woodlands MRT Station
+0.87,51,36, Pioneer MRT Station,  Bukit Panjang MRT Station,  Beauty World MRT Station, Clementi MRT Station,  Somerset MRT Station
+0.87,51,36, Pioneer MRT Station,  Jurong East MRT Station,  Bukit Panjang MRT Station,  Choa Chu Kang MRT Station, Woodlands MRT Station
+0.87,51,36, Pioneer MRT Station,  Chinese Garden MRT Station,  Beauty World MRT Station,  Bukit Panjang MRT Station, Woodlands MRT Station
+0.87,51,36,Woodlands MRT Station,  Bukit Panjang MRT Station,  Chinese Garden MRT Station,  Somerset MRT Station,  Serangoon MRT Station
+0.866666667,50,35, Pioneer MRT Station, Clementi MRT Station,  Beauty World MRT Station,  Bukit Panjang MRT Station,  Serangoon MRT Station
+0.866666667,50,35,Woodlands MRT Station,  Choa Chu Kang MRT Station,  Beauty World MRT Station,  Somerset MRT Station,  Serangoon MRT Station
+0.866666667,50,35, Pioneer MRT Station,  Jurong East MRT Station, Bukit Panjang MRT Station,  Beauty World MRT Station,  Somerset MRT Station
+0.856666667,53,37,Clementi MRT Station,  Pioneer MRT Station,  Choa Chu Kang MRT Station,  Bukit Panjang MRT Station,  Woodlands MRT Station
+0.856666667,53,37, Woodlands MRT Station,  Bukit Panjang MRT Station, Clementi MRT Station,  Somerset MRT Station,  Serangoon MRT Station
+0.856666667,53,37, Pioneer MRT Station,  Yew Tee MRT Station,  Bukit Panjang MRT Station, Woodlands MRT Station,  Serangoon MRT Station
+0.853333333,52,36, Bukit Panjang MRT Station,  Yew Tee MRT Station,  Pioneer MRT Station, Clementi MRT Station,  Somerset MRT Station
+0.853333333,52,36, Pioneer MRT Station,  Chinese Garden MRT Station,  Bukit Panjang MRT Station,  Yew Tee MRT Station, Woodlands MRT Station
+0.853333333,52,36, Chinese Garden MRT Station,  Bukit Panjang MRT Station,  Yew Tee MRT Station, Woodlands MRT Station,  Serangoon MRT Station
+0.853333333,52,36,Woodlands MRT Station,  Bukit Panjang MRT Station,  Jurong East MRT Station,  Somerset MRT Station,  Serangoon MRT Station
+0.85,51,35,Clementi MRT Station,  Chinese Garden MRT Station,  Bukit Panjang MRT Station,  Woodlands MRT Station,  Serangoon MRT Station
+0.85,51,35,Clementi MRT Station,  Jurong East MRT Station,  Bukit Panjang MRT Station,  Woodlands MRT Station,  Serangoon MRT Station
+0.85,51,35,Clementi MRT Station,  Pioneer MRT Station,  Choa Chu Kang MRT Station,  Bukit Panjang MRT Station,  Serangoon MRT Station
+0.85,51,35,Bukit Panjang MRT Station,  Choa Chu Kang MRT Station,  Pioneer MRT Station,  Chinese Garden MRT Station,  Somerset MRT Station
+0.85,51,35,Bukit Panjang MRT Station,  Yew Tee MRT Station,  Pioneer MRT Station,  Jurong East MRT Station,  Beauty World MRT Station
+0.843333333,55,38, Woodlands MRT Station,  Bukit Panjang MRT Station,  Yew Tee MRT Station, Clementi MRT Station,  Somerset MRT Station
+0.84,54,37,Clementi MRT Station,  Bukit Panjang MRT Station,  Choa Chu Kang MRT Station,  Woodlands MRT Station,  Serangoon MRT Station
+0.84,54,37,Woodlands MRT Station,  Yew Tee MRT Station,  Bukit Panjang MRT Station,  Chinese Garden MRT Station,  Somerset MRT Station
+0.836666667,53,36, Jurong East MRT Station,  Bukit Panjang MRT Station,  Yew Tee MRT Station, Woodlands MRT Station,  Serangoon MRT Station
+0.836666667,53,36, Pioneer MRT Station,  Jurong East MRT Station,  Beauty World MRT Station,  Bukit Panjang MRT Station, Woodlands MRT Station
+0.833333333,52,35, Woodlands MRT Station,  Choa Chu Kang MRT Station,  Yew Tee MRT Station, Clementi MRT Station,  Somerset MRT Station
+0.833333333,52,35, Woodlands MRT Station,  Choa Chu Kang MRT Station,  Beauty World MRT Station, Clementi MRT Station,  Somerset MRT Station
+0.833333333,52,35, Bukit Panjang MRT Station,  Pioneer MRT Station, Clementi MRT Station,  Somerset MRT Station,  Serangoon MRT Station
+0.833333333,52,35, Pioneer MRT Station,  Chinese Garden MRT Station,  Bukit Panjang MRT Station, Woodlands MRT Station,  Serangoon MRT Station
+0.833333333,52,35,Woodlands MRT Station,  Yew Tee MRT Station,  Beauty World MRT Station,  Somerset MRT Station,  Serangoon MRT Station
+0.833333333,52,35,Bukit Panjang MRT Station,  Choa Chu Kang MRT Station,  Pioneer MRT Station,  Jurong East MRT Station,  Somerset MRT Station
+0.833333333,52,35, Pioneer MRT Station,  Chinese Garden MRT Station, Bukit Panjang MRT Station,  Yew Tee MRT Station,  Somerset MRT Station
+0.826666667,56,38,Woodlands MRT Station,  Bukit Panjang MRT Station,  Yew Tee MRT Station,  Pioneer MRT Station,  Beauty World MRT Station
+0.823333333,55,37,Clementi MRT Station,  Pioneer MRT Station,  Yew Tee MRT Station,  Bukit Panjang MRT Station,  Woodlands MRT Station
+0.823333333,55,37,Woodlands MRT Station,  Yew Tee MRT Station,  Bukit Panjang MRT Station,  Jurong East MRT Station,  Somerset MRT Station
+0.82,54,36, Pioneer MRT Station,  Jurong East MRT Station,  Bukit Panjang MRT Station,  Yew Tee MRT Station, Woodlands MRT Station
+0.816666667,53,35, Pioneer MRT Station, Clementi MRT Station,  Chinese Garden MRT Station,  Bukit Panjang MRT Station,  Woodlands MRT Station
+0.816666667,53,35, Pioneer MRT Station, Clementi MRT Station,  Jurong East MRT Station,  Bukit Panjang MRT Station,  Woodlands MRT Station
+0.816666667,53,35,Clementi MRT Station,  Pioneer MRT Station,  Yew Tee MRT Station,  Bukit Panjang MRT Station,  Serangoon MRT Station
+0.816666667,53,35,Woodlands MRT Station,  Choa Chu Kang MRT Station,  Yew Tee MRT Station,  Pioneer MRT Station,  Beauty World MRT Station
+0.81,57,38,Woodlands MRT Station,  Bukit Panjang MRT Station,  Choa Chu Kang MRT Station,  Pioneer MRT Station,  Somerset MRT Station
+0.806666667,56,37,Clementi MRT Station,  Yew Tee MRT Station,  Bukit Panjang MRT Station,  Woodlands MRT Station,  Serangoon MRT Station
+0.806666667,56,37, Pioneer MRT Station,  Beauty World MRT Station,  Bukit Panjang MRT Station, Woodlands MRT Station,  Serangoon MRT Station
+0.8,54,35, Woodlands MRT Station,  Yew Tee MRT Station,  Beauty World MRT Station, Clementi MRT Station,  Somerset MRT Station
+0.8,54,35, Pioneer MRT Station,  Jurong East MRT Station,  Bukit Panjang MRT Station, Woodlands MRT Station,  Serangoon MRT Station
+0.8,54,35,Bukit Panjang MRT Station,  Yew Tee MRT Station,  Pioneer MRT Station,  Jurong East MRT Station,  Somerset MRT Station
+0.793333333,58,38,Woodlands MRT Station,  Bukit Panjang MRT Station,  Pioneer MRT Station,  Beauty World MRT Station,  Somerset MRT Station
+0.79,57,37, Woodlands MRT Station,  Bukit Panjang MRT Station,  Pioneer MRT Station, Clementi MRT Station,  Somerset MRT Station
+0.776666667,59,38,Woodlands MRT Station,  Bukit Panjang MRT Station,  Yew Tee MRT Station,  Pioneer MRT Station,  Somerset MRT Station
+0.766666667,56,35,Woodlands MRT Station,  Choa Chu Kang MRT Station,  Yew Tee MRT Station,  Pioneer MRT Station,  Somerset MRT Station
+0.766666667,56,35,Woodlands MRT Station,  Choa Chu Kang MRT Station,  Pioneer MRT Station,  Beauty World MRT Station,  Somerset MRT Station
+0.756666667,59,37,Woodlands MRT Station,  Bukit Panjang MRT Station,  Pioneer MRT Station,  Somerset MRT Station,  Serangoon MRT Station
+0.753333333,58,36,Clementi MRT Station,  Pioneer MRT Station,  Bukit Panjang MRT Station,  Woodlands MRT Station,  Serangoon MRT Station
+0.753333333,58,36,Woodlands MRT Station,  Bukit Panjang MRT Station,  Chinese Garden MRT Station,  Pioneer MRT Station,  Somerset MRT Station
+0.736666667,59,36,Woodlands MRT Station,  Bukit Panjang MRT Station,  Pioneer MRT Station,  Jurong East MRT Station,  Somerset MRT Station
+0.716666667,59,35,Woodlands MRT Station,  Yew Tee MRT Station,  Pioneer MRT Station,  Beauty World MRT Station,  Somerset MRT Station

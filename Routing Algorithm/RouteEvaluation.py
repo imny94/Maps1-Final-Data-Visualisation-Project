@@ -2,14 +2,15 @@ import csv
 import RouteSelector	# To obtain MAXTRAVELTIME per route
 import PossibleCombinationsForBuses	# To obtain the number of routes planned out - NUMBUSES
 import pathFinderUpdated	# To obtain the maximum capacity per route
-print 
+
+ITER = 4
 
 def run():
 	print "Start"
 
 	possibleRoutes = []
-	FileToOptimise = "SortedOptimisedRoutes.csv" # "PossibleRoutesToConsider.csv"
-	if FileToOptimise == "SortedOptimisedRoutes.csv":
+	FileToOptimise = "SortedOptimisedRoutes%s.csv"%ITER # "PossibleRoutesToConsider.csv"
+	if FileToOptimise == "SortedOptimisedRoutes%s.csv"%ITER:
 		NUMBUSES = 1
 	else:
 		NUMBUSES = PossibleCombinationsForBuses.NUMBUSES
@@ -35,7 +36,7 @@ def run():
 
 	print "Saving out results ..."
 
-	with open("RoutesAfterScoring.csv","wb") as f:
+	with open("RoutesAfterScoring%s.csv"%ITER,"wb") as f:
 		writer = csv.writer(f)
 		writer.writerow(["Score","Route Travel Time","Number of pax served","Route"])
 		for i in possibleRoutes:

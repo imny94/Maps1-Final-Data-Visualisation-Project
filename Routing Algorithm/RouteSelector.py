@@ -9,17 +9,19 @@ SUTDLOOKUPTABLE = {}
 MRTLOOKUPTABLE = []
 START = 0
 END = 37062
+ITER = 4
 
 INVALID = ["N.A","Sorry"]
 MAXTRAVELTIME = 60 # 1 hour
 
 def run():
-	with open('MRTCombinations.csv', 'rb') as f:
+	with open('MRTCombinations%s.csv'%ITER, 'rb') as f:
 	    reader = csv.reader(f)
 	    for row in reader:
 	    	MRTFULLCOMBI.append(row)
 
-	MRTCOMBI = MRTFULLCOMBI[START:END]
+	# MRTCOMBI = MRTFULLCOMBI[START:END]
+	MRTCOMBI = copy.deepcopy(MRTFULLCOMBI)
 
 	with open('Mrt to SUTD compiled.csv', 'rb') as f:
 	    reader = csv.reader(f)
@@ -76,7 +78,7 @@ def run():
 	def mrtToSchool(origin):
 		return SUTDLOOKUPTABLE[origin] 
 
-	BEST_COMBI_RECORD = open("InitialOptimisedRoutes%sTo%s.csv"%(START,END),"w")
+	BEST_COMBI_RECORD = open("InitialOptimisedRoutes%sTo%s%s.csv"%(START,END,ITER),"w")
 
 	print "Starting ..."
 
