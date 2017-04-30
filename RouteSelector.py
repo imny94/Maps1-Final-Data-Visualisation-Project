@@ -1,6 +1,7 @@
 import csv
 import itertools
 import re
+import copy
 import sys
 
 MRTFULLCOMBI = []
@@ -81,21 +82,28 @@ for combi in MRTCOMBI:
 	time = 1
 	bestCombi = ()	
 	prevBestTime = sys.maxint
+	temp = []
+	timeRecord = []
 	# print combi
 	for subset in itertools.permutations(combi):
 		for i in range(len(subset)-1):
-			time += lookup(subset[i].strip("'").strip(" '"),subset[i+1].strip("'").strip(" '"))
-		time += mrtToSchool(subset[len(subset)-1].strip("'").strip(" '"))	# find time to travel from last station to school
+			# time += lookup(subset[i].strip("'").strip(" '"),subset[i+1].strip("'").strip(" '"))
+			temp.append(lookup(subset[i].strip("'").strip(" '"),subset[i+1].strip("'").strip(" '")))
+		temp.append( mrtToSchool(subset[len(subset)-1].strip("'").strip(" '")) )	# find time to travel from last station to school
 		# Implement algorithm to look up travel times to different locations -- lookup(origin,destination)
+		time = sum(temp)
 		if time < prevBestTime:
-			prevBestTime = time
-			bestCombi = subset
+			prevBestTime = copy.deepcopy(time)
+			bestCombi = copy.deepcopy(subset)
+			timeRecord = copy.deepcopy(temp)
 		time = 1
+		temp = []
 	if prevBestTime < MAXTRAVELTIME:
-		print "best combi is " + str(bestCombi)
-		print prevBestTime	
+		# print "best combi is " + str(bestCombi)
+		# print prevBestTime	
+		# print timeRecord
 		BEST_COMBI_RECORD.write(str(bestCombi).strip("(").strip(")")+","+ str(prevBestTime) + "\n")
 
 BEST_COMBI_RECORD.close()
-
+# print CACHE
 print "END"
