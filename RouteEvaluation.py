@@ -2,34 +2,45 @@ import csv
 import RouteSelector	# To obtain MAXTRAVELTIME per route
 import PossibleCombinationsForBuses	# To obtain the number of routes planned out - NUMBUSES
 import pathFinderUpdated	# To obtain the maximum capacity per route
+print 
 
-print "Start"
+def run():
+	print "Start"
 
-possibleRoutes = []
-with open("PossibleRoutesToConsider.csv","rb") as f:
-	reader = csv.reader(f)
-	for row in reader:
-		possibleRoutes.append(row)
+	possibleRoutes = []
+	FileToOptimise = "SortedOptimisedRoutes.csv" # "PossibleRoutesToConsider.csv"
+	if FileToOptimise == "SortedOptimisedRoutes.csv":
+		NUMBUSES = 1
+	else:
+		NUMBUSES = PossibleCombinationsForBuses.NUMBUSES
 
-print "Finished reading in data"
+	with open( FileToOptimise , "rb") as f:
+		reader = csv.reader(f)
+		for row in reader:
+			possibleRoutes.append(row)
 
-MAXTOTALTIME = (RouteSelector.MAXTRAVELTIME * PossibleCombinationsForBuses.NUMBUSES)
-MAXTOTALPAX = pathFinderUpdated.MAXCAP * PossibleCombinationsForBuses.NUMBUSES
+	print "Finished reading in data"
 
-print "Begininning scoring ..."
-for i in possibleRoutes:
-	timeScore = (MAXTOTALTIME - i[0]) / MAXTOTALTIME
-	paxScore = i[1] / MAXTOTALPAX
-	totalScore = timeScore + paxScore		# This gives equal weightage to both travel time and num of ppl served. They are both normalised to their own values. A value closest to 2 is the best result
-	i.insert(0,totalScore)
+	MAXTOTALTIME = (RouteSelector.MAXTRAVELTIME * NUMBUSES)
+	MAXTOTALPAX = pathFinderUpdated.MAXCAP * NUMBUSES
 
-possibleRoutes.sort(key=lambda x : x[0])	# sort by the score allocated to each route
-
-print "Saving out results ..."
-
-with open("RoutesAfterScoring.csv","rb") as f:
-	writer = csv.writer(f)
+	print "Begininning scoring ..."
 	for i in possibleRoutes:
-		writer.wrterow(i)
+		timeScore = (MAXTOTALTIME - float(i[0]) ) / MAXTOTALTIME
+		paxScore = float(i[1]) / MAXTOTALPAX
+		totalScore = timeScore + paxScore		# This gives equal weightage to both travel time and num of ppl served. They are both normalised to their own values. A value closest to 2 is the best result
+		i.insert(0,totalScore)
 
-print "END"
+	possibleRoutes.sort(key=lambda x : x[0])	# sort by the score allocated to each route
+
+	print "Saving out results ..."
+
+	with open("RoutesAfterScoring.csv","wb") as f:
+		writer = csv.writer(f)
+		for i in possibleRoutes:
+			writer.writerow(i)
+
+	print "END"
+
+if __name__ == "__main__":
+	run()
