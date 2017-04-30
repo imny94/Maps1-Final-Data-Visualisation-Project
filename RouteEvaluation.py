@@ -37,6 +37,7 @@ def run():
 
 	with open("RoutesAfterScoring.csv","wb") as f:
 		writer = csv.writer(f)
+		writer.writerow(["Score","Route Travel Time","Number of pax served","Route"])
 		for i in possibleRoutes:
 			writer.writerow(i)
 
